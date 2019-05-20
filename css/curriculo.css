@@ -1,0 +1,128 @@
+*{color: #303030;}
+.msg h2, .msg a{
+    visibility: hidden;
+}
+/* COLUNAS */
+.col-100{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-ajust{
+    width: 900px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+}
+/* /COLUNAS */
+
+/* Section superior */
+.sup{
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+.sup h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 3.7rem;
+    margin-bottom: 10px;
+}
+.sup p{
+    font-size: 0.95rem;
+}
+/* /Section superior */
+
+/* Contents */
+.content{
+    align-items: flex-start;
+    margin-bottom: 45px;
+}
+
+.box-1{
+    margin-right: 20px;
+}
+
+.box-2{
+    margin-left: 20px;
+}
+
+.box-1 h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.box-2 weak{
+    font-weight: 300;
+}
+/* /Contents */
+
+
+.content-ensino h2{
+    padding-right: 6px;
+}
+
+.content-skills{
+    margin-right: 38px;
+}
+
+.content-skills h2{
+    padding-right: 6px;
+}
+
+.box-2-links{
+    display: flex;
+}
+
+.box-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: auto;
+}
+
+.box-links i{
+    font-size: 4rem;
+}
+
+.content-contato{
+    margin-right: 154px;
+}
+
+.content-contato h2{
+    padding-right: 10px;
+}
+
+.btn-voltar a{
+    background-color: #fa7171;
+    padding: 10px 25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.btn-voltar{
+    margin-bottom: 50px;
+    overflow: visible !important;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 656px){
+    .sup{justify-content: center;}
+    .content{flex-direction: column;}
+    .content-skills{margin-right: 0;}
+    .box-links{max-width: 90vw;}
+    .content-contato{margin-right: 0;}
+}
+
+@media (max-width: 366px){
+    .box-links{margin-top: 20px; width: 140px}
+}

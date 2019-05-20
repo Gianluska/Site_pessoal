@@ -1,0 +1,40 @@
+Tags de Estrutura {
+
+<!DOCTYYPE html>
+<html></html>
+<head></head>
+<body></body>
+
+}
+
+Tags dentro do head{
+
+<title></title>
+<meta/>
+<link/>
+
+}
+
+Tags dentro do body{
+
+<main></main>
+<header>
+<section>
+<nav>
+<ul - ol, li>
+<a>
+<h1 - h6>
+<p>
+<input>
+<div>
+<hr>
+<img>
+<form>
+
+}
+
+comandos css que mereçem aulas a parte{
+
+tipos de medidas (px, vw vh, rem, etc)
+@media
+}

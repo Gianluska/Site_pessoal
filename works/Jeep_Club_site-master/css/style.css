@@ -1,0 +1,298 @@
+/* reset */
+*{margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+nav, ul{list-style: none;}
+a{text-decoration: none; cursor: pointer; opacity: 0.9;}
+a:hover{opacity: 1;}
+/* /reset */
+
+/* BTN VOLTAR */
+
+.btn-voltar{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fa7171;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-voltar:hover{
+    opacity: 1;
+}
+
+/* /BTN VOLTAR */
+
+/* header */
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: rgb(247, 247, 247);
+}
+header img{
+    width: 200px;
+}
+header nav{
+    display: flex;
+}
+header li{
+    margin: 0 15px;
+}
+header li a{
+    color: #191c03;
+}
+header li:first-child{
+    margin-left: 0;
+}
+header li:last-child{
+    margin-right: 0;
+}
+/* /header */
+
+/* hero */
+.hero{
+    margin-top: 70px;
+    background-image: url(../img/hero01.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+.hero h3{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.hero .btn{
+    padding: 20px 50px;
+    background-color: #fff;
+    color: #191c03;
+}
+/* /hero */
+
+/* conheça */
+.conheca-o-morro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.conheca-o-morro h2{
+    color: #191c03;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.conheca-o-morro p{
+    color: #191c03;
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.conheca-o-morro hr{
+    width: 350px;
+    height: 1px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+}
+.conheca-o-morro .grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conheca-o-morro .grid li{
+    height: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+.conheca-o-morro .grid .small{
+    flex-basis: 40%;
+}
+.conheca-o-morro .grid .large{
+    flex-basis: 60%
+}
+/* /conheça */
+
+/* caracteristicas */
+.caracteristicas{
+    background-color: #191c03;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.caracteristicas h2{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.caracteristicas p{
+    color: #ffffff;
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.caracteristicas hr{
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+}
+.caracteristicas .grid{
+    width: 100%;
+    display: flex;
+}
+.caracteristicas .grid li{
+    padding: 0 30px;
+    text-align: center;
+}
+.caracteristicas .grid li:hover{
+    padding-top: 20px;
+}
+.caracteristicas .grid li i{
+    color: #c3c63b;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+.caracteristicas .grid li i:hover{
+    color: #adaf3a;
+}
+.caracteristicas .grid li h4{
+    font-size: 1.5rem;
+    color: #c3c63b;
+    margin-bottom: 30px
+}
+.caracteristicas .grid li p{
+    color: #fff;
+}
+/* /caracteristicas */
+
+/* newsletter */
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.newsletter{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+}
+.newsletter h2{
+    color: #c3c63b;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+.newsletter p{
+    color: #c3c63b;
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.newsletter hr{
+    width: 200px;
+    height: 2px;
+    background-color: #c3c63b;
+    margin-bottom: 70px;
+    border: none;
+}
+.newsletter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+.newsletter input{
+    padding: 15px;
+    border: 1px solid #c3c63b;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+}
+.newsletter button{
+    padding: 15px;
+    background-color: #c3c63b;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* /newsletter */
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #191c03;
+    padding: 50px 0;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li{
+    margin-right: 10px;
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: #c3c63b;
+    font-size: 2rem;
+}
+footer p{
+    color: #c3c63b;
+    text-align: center;
+    font-weight: 300;
+}
+footer .creditos{
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+/* /footer */
+
+@media (max-width: 850px){
+    .caracteristicas .grid{flex-direction: column;}
+}
+@media (max-width: 700px){
+    header{flex-direction: column;}
+    header img{margin-bottom: 15px;}
+    .hero h1{font-size: 1.5rem;}
+    .hero h3{font-size: 1rem;}
+    .conheca-o-morro .grid .small, .conheca-o-morro .grid .large{flex-basis: 100%;}
+    .newsletter input{flex-basis: 100%; margin-bottom: 15px;}
+}

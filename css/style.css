@@ -1,0 +1,130 @@
+/* COLUNAS */
+.col-100{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-ajust{
+    width: 980px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /COLUNAS */
+
+/* BOX START */
+.myPicture{
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin: 25px 0;
+}
+
+.box-start{
+    flex-direction: column;
+    text-align: center;
+}
+
+.box-start h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #313131;
+}
+
+.box-start h2{
+    font-weight: 400;
+    font-size: 0.8rem;
+    float: right;
+}
+
+.box-start h3 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    float: left;
+}
+
+.apresentation{
+    margin-bottom: 25px;
+}
+
+.box-start p{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.box-start p strong{
+    font-weight: 400;
+}
+
+.box-start hr{
+    margin-top: 30px;
+    width: 400px;
+    height: 1px;
+    background-color: #fa7171;
+    border: none;
+}
+
+.nav{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul {
+    margin-right: 20px;
+}
+
+.nav ul:last-child{
+    margin: 0;
+}
+
+.nav ul a{
+    font-weight: 900;
+    color: #313131;
+}
+
+.nav ul a:hover{
+    color: #fa7171;
+}
+
+.buttons{
+    margin-top: 55px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    background: #fa7171;
+    color: #fff;
+    height: 100%;
+    padding: 17px 50px;
+    border-radius: 3%;
+}
+
+.btn-curriculo{
+    margin-right: 55px;
+}
+
+.btn-portfolio{
+    margin-left: 55px;
+}
+/* /BOX START */
+
+/* Responsive */
+@media (max-width: 466px){
+    .box-start h2{float: none;}
+    .box-start h3{float: none;}
+    .buttons{flex-direction: column;}
+    .btn-curriculo{margin: 0 0 25px 0;}
+    .btn-portfolio{margin: 0 0 25px 0;}
+}
+/* /Responsive */
